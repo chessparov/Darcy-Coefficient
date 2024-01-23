@@ -1,5 +1,5 @@
 # Darcy Coefficient
-A program for evaluating the Darcy coefficient given the Reynolds number, the relative roughness and the dimensions of a pipe, factoring also different pipe geometry.
+A program capable of evaluating the Darcy coefficient given the Reynolds number, the relative roughness and the dimensions of a pipe, factoring also different pipe geometry.
 
 **Coolebrok equation**
 
