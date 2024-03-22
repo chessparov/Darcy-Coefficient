@@ -47,7 +47,7 @@ if __name__ == "__main__":
             if D < 0:
                 raise Exception("Please insert a valid diameter! ")
             # Solves iteratively using as a starting value 0.025, the "magic" number
-            Lambda = fsolve(f, 0.025)
+            Lambda = fsolve(f, [0.025])
             print(f"The Darcy coefficient is: \u03BB = {Lambda[0]}")
             break
     except ValueError:
